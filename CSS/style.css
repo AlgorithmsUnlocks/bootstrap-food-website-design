@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins',sans-serif;
+}
+p{
+    font-size: 16px;
+    font-family: 'Poppins',sans-serif;
+    line-height: 28px;
+}
+/*  Header CSS  */
+.navbar-brand{
+    font-family: 'Pacifico', cursive;
+    font-size: 30px!important;
+    color: #00b894!important;
+}
+.navbar-brand:hover{
+    color: black;
+}
+.navbar-bg{
+  background-color: white!important;
+}
+nav.navbar.navbar-expand-lg.navbar-bg {
+ height: 100px;
+ box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
+ border-bottom: 1px solid rgb(149 157 165/20%);
+}
+.nav-link{
+    margin: 0 10px;
+    font-family: 'Poppins',sans-serif;
+    text-transform: uppercase;
+    color: black;
+}
+.nav-link:hover{
+    color: #00b894;
+    border-bottom: 1px solid #00b894;
+}
+.search{
+      border: 2px solid #00b894;
+      height: 45px;
+      border-radius: 30px;
+      width: 250px;
+      padding: 0 15px;
+  }  
+  .btn0{
+    border: 2px solid #00b894;
+    height: 45px;
+    width: 100px;
+    border-radius: 30px; 
+    margin-left: -100px;
+    background-color: #00b894;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+  
+  }
+  button#dropdownMenuButton1 {
+    background: transparent;
+    color: black;
+    border: none;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 300;
+}
+
+/*  Hero section CSS */
+
+.btnSee{
+    background-color: #00b894;
+    border-radius: 50px;
+    border: none;
+    height: 60px;
+    width: 200px;
+    font-size: 18px;
+    font-family: 'Poppins',sans-serif;
+    margin: 30px 0;
+}
+.btnSee a{
+    text-decoration: none;
+    color: white;
+}
+.title{
+    font-size: 58px;
+    color: black;
+    font-weight: bolder;
+}
+.bg-hero{
+    background-image: url('../image/hero-bg.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: unset;
+}
+.rowHeight{
+    height: 80vh;
+}
+.carousel-inner{
+    height: 80vh;
+}
+.blue{
+    background-color: blue;
+}
+@media(min-width: 576px) and(max-width: 767px){
+    .rowHeight{
+        height: 100vh;
+    }
+}
+
+/* Categories Section CSS */
+
+.catItem{
+    padding: 30px;
+    margin: 20px 10px;
+    box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
+}
+.txt{
+    margin: 15px 0;
+}
+.foodImg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.catHeight{
+    padding: 30px 0;
+}
+.txtD{
+    height: 150px;
+}
+ 
+/* Demo Food */
+
+a.btn.btn-btnnew {
+    background: #00b894;
+    border: none;
+    padding: 10px 30px;
+    font-size: 16px;
+    font-family: 'Poppins',sans-serif;
+    color: white;
+}
+
+/* Footer CSS*/
+
+.footerHeight {
+    height: 500px;
+    background-color: #00b894;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
